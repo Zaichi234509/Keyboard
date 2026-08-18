@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hu Tao · Fragrance in Thaw — Collaboration Mechanical Keyboard</title>
+<meta name="description" content="The official Genshin Impact × Hu Tao 'Fragrance in Thaw' mechanical keyboard. Plum blossoms in the snow, five-sided dye-sublimated PBT, Kailh BOX switches, hot-swap, adjustable RGB.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0709'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23A5202F'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ===================== LOADER ===================== -->
+<div id="loader">
+  <div class="ld-in">
+    <div class="ld-glyph">桃</div>
+    <div class="ld-txt">Fragrance in Thaw</div>
+    <div class="ld-bar"><i></i></div>
+  </div>
+</div>
+
+<div id="rail"></div>
+
+<!-- ===================== BACKGROUND ===================== -->
+<div class="bg-layers">
+  <div class="bg-grad" data-par="0.12"></div>
+  <canvas class="petals" id="petals"></canvas>
+  <div class="bg-grain"></div>
+  <div class="bg-vig"></div>
+</div>
+
+<!-- ===================== 3D STAGE ===================== -->
+<div id="stage"><canvas id="kb3d"></canvas></div>
+
+<!-- ===================== NAV ===================== -->
+<nav id="nav">
+  <div class="brand"><span class="mark"><span>桃</span></span> WANGSHENG</div>
+  <ul class="nav-links">
+    <li><a href="#design">Design</a></li>
+    <li><a href="#specs">Specs</a></li>
+    <li><a href="#switches">Switches</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+  </ul>
+  <a href="#buy" class="nav-cta">Reserve</a>
+</nav>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-in" data-par="-0.22">
+    <div class="hero-kicker">Genshin Impact <b>×</b> Official Merchandise Series</div>
+    <h1>Fragrance<span class="l2">in Thaw</span></h1>
+    <div class="hero-cn">雪霁梅香</div>
+    <p class="hero-sub">
+      The 77th Director of the Wangsheng Funeral Parlor has opinions about typing.
+      Plum blossoms bloom across a lacquer-black deck; embers glow beneath every keystroke.
+    </p>
+    <div class="hero-meta">
+      <div><b>87 / 108</b>Layout</div>
+      <div><b>Kailh BOX</b>Switches</div>
+      <div><b>5-Sided</b>Dye-Sublimation</div>
+      <div><b>#0077</b>Serialised</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3D SCROLL STAGE ===================== -->
+<section id="stage-track" aria-label="Product tour">
+  <div class="stage-caption">
+    <div class="cap left" data-cap="0">
+      <span class="n">01 — THE DECK</span>
+      <h3>Lacquer black,<br><em>plum in bloom</em></h3>
+      <p>An ABS frame finished in deep funeral-parlour black, printed edge to edge with plum branches and drifting butterflies lifted straight from Hu Tao's costume design.</p>
+    </div>
+    <div class="cap right" data-cap="1">
+      <span class="n">02 — THE PALETTE</span>
+      <h3>Four colours,<br><em>one mourning</em></h3>
+      <p>Ivory alphas for the snow. Plum-wine numerals for the branch. Olive-tan modifiers for the hat's tassels. Crimson accents for the flame she carries.</p>
+    </div>
+    <div class="cap left" data-cap="2">
+      <span class="n">03 — THE LAYOUT</span>
+      <h3>Eighty-seven keys,<br><em>no wasted rites</em></h3>
+      <p>Tenkeyless discipline — 364.8 × 141.5 × 38 mm. Three-way cable routing underneath, two-stage feet, and a serial number plate that makes each board its own.</p>
+    </div>
+    <div class="cap right" data-cap="3">
+      <span class="n">04 — THE GLOW</span>
+      <h3>Adjustable RGB,<br><em>ember default</em></h3>
+      <p>Ships tuned to a slow crimson breathe. Hot-swap sockets underneath mean the switches are yours to bury and replace at will.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MARQUEE ===================== -->
+<div class="marq">
+  <div class="marq-in">
+    <span>雪霁梅香</span><span>FRAGRANCE IN THAW</span><span>往生堂</span><span>PLUM BLOSSOMS IN THE SNOW</span>
+    <span>雪霁梅香</span><span>FRAGRANCE IN THAW</span><span>往生堂</span><span>PLUM BLOSSOMS IN THE SNOW</span>
+  </div>
+</div>
+
+<!-- ===================== SPECS ===================== -->
+<section class="sec" id="specs">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow rv">Specification</div>
+        <h2 class="title rv d1">Built to<br><em>outlast you</em></h2>
+      </div>
+      <p class="lede rv d2">
+        Five-sided thermal sublimation on high-content PBT — the artwork wraps the sides of every cap and will not fade,
+        shine, or wear through. This is a keyboard designed by people whose entire business is permanence.
+      </p>
+    </div>
+
+    <div class="specs">
+      <div class="spec rv"><div class="k">Layout</div><div class="v">87 / 108<small>TKL or full-size ANSI</small></div></div>
+      <div class="spec rv d1"><div class="k">Keycaps</div><div class="v">PBT<small>Five-sided thermal sublimation</small></div></div>
+      <div class="spec rv d2"><div class="k">Frame</div><div class="v">ABS<small>Matte lacquer black, printed</small></div></div>
+      <div class="spec rv d3"><div class="k">Backlight</div><div class="v">RGB<small>Adjustable, per-effect</small></div></div>
+      <div class="spec rv"><div class="k">Sockets</div><div class="v">Hot-Swap<small>Full-key, no soldering</small></div></div>
+      <div class="spec rv d1"><div class="k">Dimensions</div><div class="v">364.8 mm<small>× 141.5 × 38 mm (87-key)</small></div></div>
+      <div class="spec rv d2"><div class="k">Feet</div><div class="v">2 Stages<small>Plus 3-way cable routing</small></div></div>
+      <div class="spec rv d3"><div class="k">Serial</div><div class="v">Unique<small>Numbered plate per unit</small></div></div>
+    </div>
+
+    <div class="palette">
+      <div class="sw rv"><i style="background:#EDE3CB"></i><div class="nm">Snow Ivory</div><div class="hx">#EDE3CB · Alphas</div></div>
+      <div class="sw rv d1"><i style="background:#5C2B36"></i><div class="nm">Plum Wine</div><div class="hx">#5C2B36 · Numerals</div></div>
+      <div class="sw rv d2"><i style="background:#9B9268"></i><div class="nm">Tassel Olive</div><div class="hx">#9B9268 · Modifiers</div></div>
+      <div class="sw rv d3"><i style="background:#A5202F"></i><div class="nm">Ember Crimson</div><div class="hx">#A5202F · Accents</div></div>
+      <div class="sw rv d4"><i style="background:#141014"></i><div class="nm">Parlour Black</div><div class="hx">#141014 · Frame</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DESIGN / GALLERY ===================== -->
+<section class="sec" id="design">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow rv">The Object</div>
+        <h2 class="title rv d1">Every angle is<br><em>an offering</em></h2>
+      </div>
+      <p class="lede rv d2">
+        Shot the way she'd want it: low light, red lanterns, a little smoke. The board is the only thing in focus.
+      </p>
+    </div>
+
+    <div class="gal" id="gallery">
+      <figure class="fig g-a rv"><img data-par-img="0.10" src="assets/hero.jpg" alt="Hu Tao Fragrance in Thaw keyboard, three-quarter hero angle">
+        <figcaption><b>The Board</b>87-key · lacquer black · ember underglow</figcaption></figure>
+      <figure class="fig g-b rv d1"><img data-par-img="0.14" src="assets/keycaps.jpg" alt="Macro of the dye-sublimated PBT keycaps and ghost spacebar">
+        <figcaption><b>The Caps</b>Five-sided dye-sub · Boo Tao spacebar</figcaption></figure>
+      <figure class="fig g-c rv"><img data-par-img="0.14" src="assets/box.jpg" alt="Collector packaging with red foil plum blossoms and serial plate">
+        <figcaption><b>The Rites</b>Foil-stamped box · numbered plate</figcaption></figure>
+      <figure class="fig g-d rv d1"><img data-par-img="0.10" src="assets/scene.jpg" alt="The keyboard on a dark desk with red lanterns and incense">
+        <figcaption><b>The Parlour</b>In situ · Liyue Harbour, after hours</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SWITCHES ===================== -->
+<section class="sec" id="switches">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow rv">Keyswitches</div>
+        <h2 class="title rv d1">Choose your<br><em>farewell</em></h2>
+      </div>
+      <p class="lede rv d2">
+        Both options are Kailh BOX — dust-and-splash resistant stems with a boxed cross that kills wobble.
+        Hot-swap sockets mean neither choice is final.
+      </p>
+    </div>
+
+    <div class="sw-grid">
+      <div class="sw-card rv">
+        <div class="dot" style="background:#EDE3CB"></div>
+        <h4>Kailh BOX White</h4>
+        <div class="ty">Tactile · Clicky</div>
+        <p>A distinct bump and a crisp, bright click bar. Long service life, loud conviction. Recommended for daily work — and for reminding the office you're still alive.</p>
+        <div class="bars">
+          <div class="bar"><div class="lb"><span>Tactility</span><span>High</span></div><div class="tr"><i class="fl" data-w="88" style="background:linear-gradient(90deg,#EDE3CB,#9B9268)"></i></div></div>
+          <div class="bar"><div class="lb"><span>Acoustics</span><span>Clicky</span></div><div class="tr"><i class="fl" data-w="94" style="background:linear-gradient(90deg,#EDE3CB,#9B9268)"></i></div></div>
+          <div class="bar"><div class="lb"><span>Speed</span><span>Moderate</span></div><div class="tr"><i class="fl" data-w="58" style="background:linear-gradient(90deg,#EDE3CB,#9B9268)"></i></div></div>
+        </div>
+      </div>
+
+      <div class="sw-card rv d1">
+        <div class="dot" style="background:#A5202F"></div>
+        <h4>Kailh BOX Red</h4>
+        <div class="ty">Linear · Smooth</div>
+        <p>Straight down, no bump, no complaint. Smooth keystroke with a crisp bottom-out and rapid response. Recommended for gaming — for when the charge needs to land first.</p>
+        <div class="bars">
+          <div class="bar"><div class="lb"><span>Tactility</span><span>None</span></div><div class="tr"><i class="fl" data-w="14" style="background:linear-gradient(90deg,#A5202F,#FF4A2B)"></i></div></div>
+          <div class="bar"><div class="lb"><span>Acoustics</span><span>Muted</span></div><div class="tr"><i class="fl" data-w="42" style="background:linear-gradient(90deg,#A5202F,#FF4A2B)"></i></div></div>
+          <div class="bar"><div class="lb"><span>Speed</span><span>Rapid</span></div><div class="tr"><i class="fl" data-w="93" style="background:linear-gradient(90deg,#A5202F,#FF4A2B)"></i></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tester rv">
+      <div class="hint">▸ Type on it — click the caps, or use your keyboard</div>
+      <div class="kbrow" id="kbrow"></div>
+      <div class="readout" id="readout"><span>waiting for a keystroke…</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section id="buy">
+  <div class="wrap">
+    <div class="eyebrow rv" style="justify-content:center">Limited Production</div>
+    <h2 class="title rv d1">Reserve<br><em>your plot</em></h2>
+    <div class="price rv d2"><sup>$</sup>209<sup>.99</sup></div>
+    <div class="price-note rv d2">87-Key · Kailh BOX Red · Free worldwide shipping</div>
+    <div class="btns rv d3">
+      <a href="#" class="btn" id="cta">Reserve — Wave 03</a>
+      <a href="#specs" class="btn ghost">Full Specification</a>
+    </div>
+    <div class="stock rv d4"><i></i> 77 units remaining in this consignment</div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>WANGSHENG FUNERAL PARLOUR · KEYBOARD DIVISION</div>
+      <div>
+        <a href="#design">Design</a> · <a href="#specs">Specs</a> ·
+        <a href="#switches">Switches</a> · <a href="#buy">Reserve</a>
+      </div>
+      <div>MMXXVI · LIYUE HARBOUR</div>
+    </div>
+    <p class="disclaim">
+      Fan-made showcase concept. Product details reference the officially licensed Genshin Impact "Hu Tao ·
+      Fragrance in Thaw" (雪霁梅香) mechanical keyboard — 87/108-key, PBT five-sided sublimation, ABS frame,
+      adjustable RGB, hot-swappable Kailh BOX White or Red switches. Genshin Impact and Hu Tao are trademarks
+      of HoYoverse / miHoYo. Product imagery on this page is AI-generated for presentation purposes and is not
+      photography of the retail unit. Not affiliated with or endorsed by HoYoverse.
+    </p>
+  </div>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
